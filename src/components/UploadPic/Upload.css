@@ -1,0 +1,79 @@
+/* you can make up upload button and sample style by using stylesheets */
+.ant-upload-select-picture-card i {
+    font-size: 50px;
+  
+  }
+  
+  .ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 10px;
+    color: #666;
+  }
+ 
+
+  .ant-upload.ant-upload-select-picture-card {
+    display: relative;
+    width: 140px;
+    height: 140px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+    border: 1px dashed #d9d9d9;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: border-color 0.1s ease;
+
+}
+
+.ant-upload-list-picture .ant-upload-list-item, .ant-upload-list-picture-card .ant-upload-list-item {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 400px;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-info {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 400px;
+    
+}
+.ant-upload-list-picture-card {
+    float: relative;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ant-upload-list {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum", "tnum";
+    zoom: 1;
+}
+
+.clearfix {
+    zoom: 1;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+element.style {
+    width: 900px;
+    transform-origin: 300px 105px;
+}

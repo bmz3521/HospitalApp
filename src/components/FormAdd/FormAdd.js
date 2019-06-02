@@ -175,12 +175,11 @@ class FormAdd extends React.Component {
             <h3 className="header-D">น้ำหนักปัจจุบัน</h3>
           </Col>
           <Input placeholder="กรอกน้ำหนักปัจจุบันของคุณ" />
-
+          <br />
           <br />
           <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
             <h3 className="header-D">การจัดการตนเองเมื่อเกิดอาการ</h3>
           </Col>
-          <br />
           <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
             <div>
               {comments.length > 0 && <CommentList comments={comments} />}

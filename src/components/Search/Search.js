@@ -16,7 +16,9 @@ class SearchCom extends React.Component{
         return(
 
              <div>
-                 <p/>
+                   <br/> 
+                  <h1 className="header-style">พิมพ์ชื่อคนไข้หรือข้อมูลเบื้องต้น</h1>
+                 <br/> 
                     <Search
                         placeholder="ค้นหาด้วย ชื่อ,อายุ,นามสกุล"
                          onSearch={value => console.log(value)}

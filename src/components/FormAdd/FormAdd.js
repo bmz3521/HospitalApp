@@ -23,7 +23,6 @@ const onClick = ({ key }) => {
   message.info(`คุณเลือก ${key}`);
 };
 
-
 const CommentList = ({ comments }) => (
   <List
     dataSource={comments}
@@ -124,7 +123,6 @@ class FormAdd extends React.Component {
             <h3 className="header-D">ความรุนแรงของอาการ</h3>
           </Col>
           <div>
-            <p />
             <Select
               showSearch
               style={{ width: 200 }}
@@ -145,15 +143,13 @@ class FormAdd extends React.Component {
               <Option value="danger">ระดับรุนแรง</Option>
             </Select>
           </div>
-          <br />
+
           <br />
           <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
             <h3 className="header-D">เมื่อจัดการตนเองแล้วเป็นอย่างไร</h3>
           </Col>
-          <div >
-            <p />
+          <div>
             <Select
-
               showSearch
               style={{ width: 200 }}
               placeholder="เลือกระดับอาการ"
@@ -173,7 +169,17 @@ class FormAdd extends React.Component {
               <Option value="same">อาการคงเดิม</Option>
             </Select>
           </div>
+          <br />
 
+          <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
+            <h3 className="header-D">น้ำหนักปัจจุบัน</h3>
+          </Col>
+          <Input placeholder="กรอกน้ำหนักปัจจุบันของคุณ" />
+
+          <br />
+          <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
+            <h3 className="header-D">การจัดการตนเองเมื่อเกิดอาการ</h3>
+          </Col>
           <br />
           <Col span={24} xs={24} sm={24} md={24} lg={24} xl={10}>
             <div>

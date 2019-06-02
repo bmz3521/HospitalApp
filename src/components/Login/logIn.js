@@ -110,7 +110,7 @@ class NormalLoginForm extends React.Component {
 
             <a href="">
               <img class src={Line1} style={{ width: 40, height: 2 }} />
-              <Link to="/register">ลงทะเบียน</Link>
+              <Link to="/register">สร้างบัญชีของคุณ</Link>
             </a>
             <img class src={Line1} style={{ width: 40, height: 2 }} />
           </Form.Item>
